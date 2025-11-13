@@ -1,0 +1,15 @@
+Algorithm,InputSize,ExecutionTime,Correct
+Naive O(n²),10,0.006,true
+Karatsuba O(n^log₂3),10,0.016,false
+Naive O(n²),50,0.01,true
+Karatsuba O(n^log₂3),50,0.06,false
+Naive O(n²),100,0.038,true
+Karatsuba O(n^log₂3),100,0.163,false
+Naive O(n²),200,0.165,true
+Karatsuba O(n^log₂3),200,0.55,false
+Naive O(n²),500,0.988,true
+Karatsuba O(n^log₂3),500,2.24,false
+Naive O(n²),1000,4.93,true
+Karatsuba O(n^log₂3),1000,13.983,false
+Naive O(n²),2000,16.465,true
+Karatsuba O(n^log₂3),2000,20.936,false
